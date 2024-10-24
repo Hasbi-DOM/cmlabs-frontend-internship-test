@@ -21,14 +21,14 @@ function CategoryDetail () {
 	return (
 		<div className="pt-2">
 			<div className="pl-20 flex items-center gap-2">
-				<a className="flex items-center gap-2 cursor-pointer text-slate-500 hover:text-red-800">
+				<a href="/" className="flex items-center gap-2 cursor-pointer text-slate-500 hover:text-red-800">
 					<IoMdHome className="text-base"/>
 					<p className="text-sm ">Home</p>
 				</a>
 				<div>
 					<IoIosArrowForward className="text-base text-slate-500"/>
 				</div>
-				<a className="text-sm cursor-pointer text-slate-500 hover:text-red-800">Foods</a>
+				<a href="#" className="text-sm text-slate-500 hover:text-red-800">Foods</a>
 			</div>
 			<div className="w-full flex flex-col items-center space-y-4 py-2">
 				<p className="text-xl sm:text-2xl md:text-2xl lg:text-3xl text-red-800 font-bold">{category} Meals</p>
